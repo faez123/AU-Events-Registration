@@ -1,0 +1,76 @@
+{
+  "events": [
+    {
+      "id": 7,
+      "name": "Exhibition of Engineering Graduation Projects",
+      "date": "2023-05-02",
+      "pictureURL": "https://www.ahlia.edu.bh/cms4/wp-content/uploads/2023/04/MG_7916.jpg",
+      "pageURL": "https://www.ahlia.edu.bh/events/exhibition-of-engineering-graduation-projects/",
+      "description": "On behalf of the College of Engineering, We would like to invite you to the Exhibition of Engineering Graduation Projects on Tuesday 02nd May 2023 at 12:00 pm near the Theatre Hall. The College of Engineering organizes a biannual Graduation Project Exhibition which is a great opportunity to present the fruits of our graduate students work. The Graduation Project Exhibition is an excellent event to link between the academic and industrial sectors. In Addition, it is great an occasion for our graduate students to practice and improve their engineering, communication and presentation skills. Looking forward to seeing you all there."
+    },
+    {
+      "id": 8,
+      "name": "Arab Youth Amidst Social Media And Societal Challenges",
+      "date": "2023-04-26",
+      "pictureURL": "https://www.ahlia.edu.bh/cms4/wp-content/uploads/2022/10/pexels-helena-lopes-705792-1024x683.png",
+      "pageURL": "https://www.ahlia.edu.bh/events/arab-youth-amidst-social-media-and-societal-challenges/",
+      "description": "The First Scientific Conference on “Arab Youth Amidst Social Media And Societal Challenges” will be held on 26th and 27th April 2023, in Virtual mode via Zoom platform. The conference focuses on the recent developments and findings in an attempt to scientifically monitor all phenomena and challenges associated with social media and societal challenges created by these means of communication."
+    },
+    {
+      "id": 0,
+      "name": "First Semester",
+      "date": "2022-09-01",
+      "pictureURL": "https://image.noelshack.com/fichiers/2017/11/1489501219-macron-resize.gif",
+      "pageURL": "https://www.ahlia.edu.bh/au-events/",
+      "description": "First semester starts the 1st September 2022!"
+    },
+    {
+      "id": 1,
+      "name": "Major exam",
+      "date": "2022-11-15",
+      "pictureURL": "https://risibank.fr/cache/medias/0/24/2485/248565/full.gif",
+      "pageURL": "https://www.ahlia.edu.bh/au-events/",
+      "description": "Major exam for the first semester start the 15th of November!"
+    },
+    {
+      "id": 2,
+      "name": "Final Exam",
+      "date": "2022-12-15",
+      "pictureURL": "https://image.noelshack.com/fichiers/2017/30/4/1501186458-risitalarmebestreup.gif",
+      "pageURL": "https://www.ahlia.edu.bh/au-events/",
+      "description": "Final exam for the first semester start the 15th of November!"
+    },
+    {
+      "id": 3,
+      "name": "Second Semester",
+      "date": "2023-01-15",
+      "pictureURL": "https://image.noelshack.com/fichiers/2018/13/6/1522530708-jesusgif.gif",
+      "pageURL": "https://www.ahlia.edu.bh/au-events/",
+      "description": "Second semester starts the 15th January 2023!"
+    },
+    {
+      "id": 4,
+      "name": "Major Exam",
+      "date": "2023-03-15",
+      "pictureURL": "https://image.noelshack.com/fichiers/2016/45/1478805194-issougd1.gif",
+      "pageURL": "https://www.ahlia.edu.bh/au-events/",
+      "description": "Major exam for the second semester start the 15th of March!"
+    },
+    {
+      "id": 5,
+      "name": "Final Exam",
+      "date": "2023-05-20",
+      "pictureURL": "https://image.noelshack.com/fichiers/2016/47/1480196381-risitasboxe.gif",
+      "pageURL": "https://www.ahlia.edu.bh/au-events/",
+      "description": "Final exam for the second semester start the 05th of May!"
+    },
+    {
+      "id": 6,
+      "name": "End of the year ball",
+      "date": "2023-06-15",
+      "pictureURL": "https://image.noelshack.com/fichiers/2014/32/1407667270-zinedinezemmour.gif",
+      "pageURL": "https://www.ahlia.edu.bh/au-events/",
+      "description": "The end of the year ball is the 15th of June!"
+    }
+  ]
+}
