@@ -36,10 +36,9 @@ class _EventCardState extends State<EventCard> {
         );
       },
       child: Container(
-        margin: const EdgeInsets.only(left: 15.0),
+        margin: const EdgeInsets.only(left: 10.0),
         alignment: Alignment.centerLeft,
-        height: (screenHeight - 600),
-        width: (screenWidth - 35),
+        height: 110,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
           color: evenCardBackgroundColor,
@@ -59,34 +58,36 @@ class _EventCardState extends State<EventCard> {
                         Colors.grey,
                         BlendMode.saturation,
                       ),
-                      child: Image.network(
-                        widget.event.pictureURL,
-                        height: 150.0,
-                        width: 100.0,
+                      child: SizedBox(
+                        child: Image.network(
+                          height: 150.0,
+                          width: 100.0,
+                          widget.event.pictureURL,
+                        ),
                       ),
                     )
-                  : Image.network(
-                      widget.event.pictureURL,
+                  : SizedBox(
                       height: 150.0,
                       width: 100.0,
+                      child: Image.network(
+                        widget.event.pictureURL,
+                      ),
                     ),
               Container(
                 margin: const EdgeInsets.only(left: 10.0),
+                width: 180,
                 alignment: Alignment.centerLeft,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    SizedBox(
-                      width: 250,
-                      child: AutoSizeText(
-                        widget.event.name,
-                        style: const TextStyle(
-                          fontSize: 15.0,
-                          fontWeight: FontWeight.bold,
-                        ),
-                        maxLines: 2,
+                    AutoSizeText(
+                      widget.event.name,
+                      style: const TextStyle(
+                        fontSize: 15.0,
+                        fontWeight: FontWeight.bold,
                       ),
+                      maxLines: 2,
                     ),
                     const SizedBox(height: 10),
                     Text(

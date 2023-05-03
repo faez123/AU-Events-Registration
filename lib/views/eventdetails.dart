@@ -72,11 +72,13 @@ class _EventDetailsState extends State<EventDetails> {
               ),
             ],
           ),
-          Image.network(
-            alignment: Alignment.center,
-            widget.event.pictureURL,
+          SizedBox(
             height: 200,
             width: screenWidth,
+            child: Image.network(
+              alignment: Alignment.center,
+              widget.event.pictureURL,
+            ),
           ),
           Container(
             margin: const EdgeInsets.only(

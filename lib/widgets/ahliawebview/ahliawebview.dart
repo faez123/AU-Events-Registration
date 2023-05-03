@@ -45,6 +45,7 @@ class _AhliaWebSiteState extends State<AhliaWebSite> {
               child: const Text('Go to Ahlia Website'),
             ),
           ),
+          const SizedBox(height: 20.0),
           Center(
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
@@ -57,6 +58,7 @@ class _AhliaWebSiteState extends State<AhliaWebSite> {
               child: const Text('Show Past and Future Events'),
             ),
           ),
+          const SizedBox(height: 20.0),
           Center(
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(

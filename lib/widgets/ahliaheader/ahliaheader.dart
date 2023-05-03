@@ -13,7 +13,8 @@ class _AhliaHeaderState extends State<AhliaHeader> {
     return Row(
       children: [
         Container(
-          color: Colors.red,
+          height: 75,
+          width: 75,
           alignment: Alignment.topLeft,
           margin: const EdgeInsets.only(
             left: 15.0,
@@ -21,8 +22,6 @@ class _AhliaHeaderState extends State<AhliaHeader> {
           ),
           child: Image.network(
             'https://media.glassdoor.com/sqll/3178986/ahlia-university-squarelogo-1664352105510.png',
-            width: 75.0,
-            height: 75.0,
           ),
         ),
         Container(
